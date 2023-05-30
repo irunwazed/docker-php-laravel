@@ -1,5 +1,7 @@
 # DOCKER LARAVEL
 
+## tahap awal
+buat folder "mysql" untuk volume database
 
 ## install composer
 ```
@@ -20,6 +22,8 @@ docker-compose exec mv composer.phar /usr/local/bin/composer
 
 ```
 docker-compose exec php composer create-project laravel/laravel .
+
+docker-compose exec php composer install
 
 docker-compose exec php php /var/www/html/artisan migrate
 ```
