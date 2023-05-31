@@ -3,6 +3,11 @@
 ## tahap awal
 buat folder "mysql" untuk volume database
 
+## running docker
+```
+docker-compose up --build
+```
+
 ## install composer
 ```
 docker-compose exec php php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
